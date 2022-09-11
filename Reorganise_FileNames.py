@@ -96,4 +96,4 @@ S = 'photo.jpg, Warsaw, 2013-09-05 14:08:15 \n' \
 + 'photohtr.jpg, Warsaw, 2003-09-05 14:08:15 \n' \
 + 'photoasas.jpg, Warsaw, 2013-11-05 14:08:15'
 
-solution(S)
+print(solution(S))

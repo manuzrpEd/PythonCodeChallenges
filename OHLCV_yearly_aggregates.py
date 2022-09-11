@@ -15,12 +15,11 @@ def solution(files):
     # return a list of length equal to files length
     # each list entry should have a  list of 2 dataframes
     # first df: highest volume by year, date and vol.
-    # second df: highest close by year.
+    # second df: highest close by year, date and close.
     lst = []
     for f in files:
-        f_list = []
         df = pd.read_csv(f)
-        df['date']=pd.to_datetime(df['date'])
+        df['date'] = pd.to_datetime(df['date'])
         df.set_index('date', inplace=True)
         df['year'] = df.index.year
         df = df.reset_index()

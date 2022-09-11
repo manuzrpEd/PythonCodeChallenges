@@ -4,9 +4,9 @@ import numpy as np
 
 def mutual_information(arr):
     def p_j(arr):
-        return np.sum(arr, axis=1)
+        return np.sum(arr, axis=1)#row sum
     def p_i(arr):
-        return np.sum(arr, axis=0)
+        return np.sum(arr, axis=0)#column sum
     def sum_px_logpx(px):
         prod = px*np.log(px + 0.0000000001)
         return sum(prod)
