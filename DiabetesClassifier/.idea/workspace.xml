@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5b6e392-267d-4867-b9ac-d4ebf24a4688" name="Changes" comment="toptal diabetes classifier challenge">
-      <change afterPath="$PROJECT_DIR$/DiabetesClassifier_revisited.py" afterDir="false" />
+    <list default="true" id="e5b6e392-267d-4867-b9ac-d4ebf24a4688" name="Changes" comment="age and gender preprocessing; XGBClassifier comparison">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/manuz/Desktop/Adm/Projects/PythonCodeChallenges/DiabetesClassifier"
+    "last_opened_file_path": "C:/Users/manuz/Desktop/Adm/Finbou/Aatu"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662897055762</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="age and gender preprocessing; XGBClassifier comparison">
+      <created>1663028458491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663028458491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +126,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="toptal diabetes classifier challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="toptal diabetes classifier challenge" />
+    <MESSAGE value="age and gender preprocessing; XGBClassifier comparison" />
+    <option name="LAST_COMMIT_MESSAGE" value="age and gender preprocessing; XGBClassifier comparison" />
   </component>
 </project>
